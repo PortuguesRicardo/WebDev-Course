@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Exemplo de uma tabela 3x3 -->
+
+<head>
+    <title>3x3 Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: auto;
+        }
+
+        th,
+        td {
+            border: 3px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th:first-child,
+        td:first-child {
+            border: 5px solid orange;
+        }
+
+        th,
+        td {
+            border-width: 3px 3px 3px 0;
+        }
+
+        th:first-child,
+        td:first-child {
+            border-left-width: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <th rowspan="3">Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+        </tr>
+    </table>
+
+    <a href="Chickens.html">Go Home</a>
+</body>
+
+</html>

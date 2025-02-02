@@ -1,0 +1,124 @@
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #FEFAE0;
+}
+
+button {
+
+    font-size: 15px;
+    background-color: #D4A373;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    color: #CCD5AE;
+}
+
+#signup {
+    background-color: #6B705C;
+    color: #B7B7A4;
+
+
+}
+
+span {
+
+    color: #A5A58D;
+}
+
+.tag {
+
+    background-color: #CCD5AE;
+    font-size: 18px;
+}
+
+
+
+.post a {
+
+    color: #D4A373;
+    text-decoration: none;
+}
+
+nav a {
+
+    color: #bc6c25;
+
+}
+
+input+button {
+
+    background-color: #bc6c25;
+
+}
+
+h2+button {
+
+    font-size: 20px;
+    background-color: #A5A58D;
+}
+
+p+button {
+
+    font-size: 20px;
+    background-color: #A5A58D;
+}
+
+input[type="search"] {
+
+    color: blue;
+}
+
+#balbino {
+
+    text-decoration: none;
+}
+
+#balbino :hover {
+    text-decoration: underline;
+}
+
+section>button:hover {
+
+    background-color: cadetblue;
+    color: aquamarine;
+}
+
+footer a {
+
+    color: #bc6c25;
+}
+
+.post a:hover {
+
+    text-decoration: underline;
+
+}
+
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 8px 3px lightblue;
+
+}
+
+input[type="checkbox"] {
+
+
+    accent-color: aqua;
+    transition: all 0.3s ease;
+
+}
+
+input[type="checkbox"]:checked {
+    background-color: lightblue;
+
+}
+
+h2::first-letter {
+
+    font-size: 50px;
+}
