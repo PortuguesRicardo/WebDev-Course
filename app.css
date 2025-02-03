@@ -1,0 +1,67 @@
+
+body{
+    margin:0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(220, 95, 95, 0.848);
+}
+
+h1{
+    background-color: rgba(207, 128, 141, 0.76);
+    text-align: center;
+    width: 100px;
+    padding: 3px;
+    border-radius: 10%;
+    border: medium solid salmon;
+    color: azure;
+margin: 20px;
+    
+}
+
+#one{
+    background-color:rgb(169, 26, 50) ;
+    border-width: 5px;
+    border-color: black;
+    border-style:solid ;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+#two{
+
+    background-color: rgb(145, 62, 75) ;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(171, 153, 153);
+    box-sizing: border-box; 
+    border-left-width: 7px;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    
+
+     
+}
+
+#three {
+
+    background-color: rgba(240, 118, 141, 0.951);
+border: medium solid wheat;
+box-sizing: border-box;
+border-bottom-style: dashed ;
+border-left-style:dotted;
+border-radius: 50%;
+
+}
+
+button{
+
+    border-width: 5px;
+border:   
+    padding: 0px 20px;
+
+}
+
