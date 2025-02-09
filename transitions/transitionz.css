@@ -1,0 +1,100 @@
+.circle {
+
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 255, 187);
+    transition: 0.5s;
+
+    display: inline-block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.3);
+    -webkit-text-fill-color: rgb(30, 194, 139);
+    border: rgba(23, 135, 96, 0.62) 3px solid;
+    padding-left: 13px;
+    padding-top: 60px;
+
+
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+
+
+}
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(204, 39, 39);
+    margin: 14px;
+    transition: 2s;
+    transition-duration: 0.5s;
+
+
+
+}
+
+div {
+
+    border-radius: 10%;
+}
+
+section:hover div {
+
+    margin-left: 1200px;
+    margin-bottom: 200px;
+}
+
+#right-side div {
+
+
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex start;
+    margin-top: 50px;
+
+
+}
+
+#right-side:hover .box {
+
+    margin-left: 1200px;
+    margin-bottom: 200px;
+}
+
+.box {
+
+
+    background-color: rgb(204, 39, 39);
+    color: white;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transition: margin-left 3s;
+    font-size: 50px;
+
+}
+
+.box:nth-of-type(1) {
+    transition-timing-function: ease-im;
+}
+
+.box:nth-of-type(2) {
+    transition-timing-function: ease-out;
+}
+
+.box:nth-of-type(3) {
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+.box:nth-of-type(4) {
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
