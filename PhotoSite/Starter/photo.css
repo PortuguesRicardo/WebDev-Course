@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(12, 1, 1);
+    margin: 0;
+}
+
+img {
+
+    width: 30%;
+    margin: calc(10%/6);
+}
+
+nav {
+
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    width: 30%;
+    border-bottom: 2px solid #b73535;
+    padding: 1.2em 0;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 1.3em;
+
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 0px rgba(255, 42, 0, 0.6);
+    /* box-shadow: inset 0 0 6px rgba(255, 42, 0, 0.5); */
+
+
+    /* Smooth transition */
+}
+
+nav:hover {
+    color: #f1f1f1;
+    /* Orange neon effect */
+    text-shadow: 0px 0px 13px #ffffff;
+    /*0 0 36px #b32903;
+    /* Neon glow */
+    transform: translateY(-2px) scale(1.0);
+    /* Moves up slightly */
+
+    border-left: none;
+    /* Removes the bottom border */
+    box-shadow: 0 0 12px 12px #b32903c6;
+    /* Blurry circular border */
+}
+
+img {
+    transition: transform 0.4s ease-in-out, border-radius 0.5s ease-in-out;
+    border-radius: 1%;
+
+    /* Smooth transition */
+    /* border-radius: 5%; */
+
+}
+
+img:hover {
+
+    /* transform: scale(1.1) rotate(2deg); */
+    /* Slightly enlarges the image */
+
+    box-shadow: 0 10px 20px rgba(248, 38, 38, 0.493);
+    /* Adds a soft shadow */
+    border-radius: 50%;
+
+
+}
+
+.left:hover {
+    transform: rotate(-2deg) scale(1.1);
+    /* Slight rotation and scaling */
+}
+
+.right:hover {
+    transform: rotate(2deg) scale(1.1);
+    /* Slight rotation and scaling */
+}
+
+.middle:hover {
+    transform: translateY(-5px) scale(1.1);
+
+    /* Slight upwards movement and scaling */
+}
+
+.spinOn {
+    transition: transform 1s ease-in, border-radius 1s ease-in, 1s ease-out;
+    transition: border-radius 1s ease-in-out;
+    /* Only border-radius transition initially */
+    transform: rotate(0deg);
+    /* Start with no rotation */
+
+
+}
+
+.spinOn:hover {
+
+    transform: rotate(360deg);
+    animation: rotateBack 1.3s ease-in-out;
+    /* Rotate the image back */
+    border-radius: 50%;
+    /* Keep the border-radius at 50% while rotating */
+}
+
+/* Keyframes for rotating back 360 degrees */
+@keyframes rotateBack {
+    0% {
+        transform: rotate(0deg);
+        /* Start from the initial position */
+
+    }
+
+
+}
+
+
+
+100% {
+    transform: rotate(360deg);
+    /* Finish rotation */
+
+}
+
+.spinOn:not(:hover) {
+    transition: border-radius 1s ease-in-out;
+    /* Smooth border-radius change when not hovered */
+    border-radius: 0%;
+    /* Transition back to original border-radius (adjust as needed) */
+}
